@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +37,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  background-image: url("https://cdn.crispedge.com/d5ffff.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+.title {
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 230px;
+}
+.message {
+  padding-top: 0px;
+  margin-top: 0px;
+  /* font-family: 'Quicksand', sans-serif;*/
+  
+  font-weight: 10000;
+  font-size: 1.2rem;
+}
+#new-quote {
+  padding-top: 0px;
+  opacity: 1.0;
+  float: right;
+  margin-right: 40%;
+  margin-top: 2px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#copied-quote {
+  padding-top: 0px;
+  opacity: 1.0;
+  float: left;
+  margin-left: 40%;
+  padding: 4px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#new-quote:hover, #copied-quote:hover {
+  opacity: 0.5;
+}
+#quote {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-weight: 500;
+}
+#author {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+/* .container {
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%
+} */
+.buttons {
+  padding-top: 10px;
 }
